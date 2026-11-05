@@ -2,28 +2,6 @@
 
 An end-to-end machine learning project that predicts **which constituents are most likely to give** and **which are most likely to respond to fundraising appeals**, built during my internship with Advance U. The models compare Random Forest and XGBoost classifiers and identify the factors that most strongly drive giving behavior, so fundraising teams can prioritize outreach.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-green)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)
-
----
-
-## Table of Contents
-- [Overview](#overview)
-- [Data and Privacy Notice](#data-and-privacy-notice)
-- [Approach](#approach)
-- [Results](#results)
-- [Key Findings](#key-findings)
-- [Limitations and Next Steps](#limitations-and-next-steps)
-- [Tech Stack](#tech-stack)
-- [Repository Structure](#repository-structure)
-- [How to Run](#how-to-run)
-- [Skills Demonstrated](#skills-demonstrated)
-- [Contact](#contact)
-
----
-
 ## Overview
 
 Advancement and fundraising teams have limited time and budget, so knowing *who* to contact and *how* matters. This project builds propensity models on constituent records (demographics, relationship types, education, engagement, and appeal history) to answer three questions:
@@ -106,23 +84,6 @@ Removing acquisition age dropped performance by roughly 16 points of accuracy, s
 └── README.md                       # Project documentation
 ```
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/LalithaHasaP/Propensity-Prediction-Model---Advance-U-Internship.git
-   cd Propensity-Prediction-Model---Advance-U-Internship
-   ```
-2. Install dependencies:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
-   ```
-3. Launch the notebook:
-   ```bash
-   jupyter notebook "Cleaned up Project code.ipynb"
-   ```
-4. **Supply your own data.** The original dataset is not included, so update the data-loading cells to point to a dataset with a similar structure (a binary giving target plus constituent flags, age fields, and appeal/channel counts).
-
 ## Skills Demonstrated
 
 - Binary classification and predictive modeling (Random Forest, XGBoost)
@@ -135,7 +96,6 @@ Removing acquisition age dropped performance by roughly 16 points of accuracy, s
 
 ## Contact
 
-**[Your Name]**
-- GitHub: [@LalithaHasaP](https://github.com/LalithaHasaP)
-- LinkedIn: [add your link]
-- Email: [add your email]
+**Lalitha Hasa Perakam**
+- LinkedIn: https://www.linkedin.com/in/lalithahasaperakam/
+- Email: perakaml@msu.edu | lalithahasaperakam@gmail.com
